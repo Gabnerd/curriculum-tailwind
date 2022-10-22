@@ -1,0 +1,12 @@
+{
+  "name": "curriculum-surpreenda-me",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/Gabnerd/curriculum-surpreenda-me.git",
+  "author": "Gabnerd <ShaickMiles@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.2.1"
+  }
+}
