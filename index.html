@@ -23,14 +23,12 @@
                                 </div>
                                 <div
                                     class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 hover:bg-indigo-800 inline-flex items-center justify-center text-white relative z-10 route-indicator">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                                    </svg>
+                                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" stroke-linecap="round" stroke-linejoin="round">
+                                        <path  d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z" />
+                                      </svg>
                                 </div>
                                 <div class="flex-grow pl-4">
-                                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 1
-                                    </h2>
+                                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Sobre mim</h2>
                                 </div>
                             </div>
                             <div class="flex relative pb-12 items-center route-link" data-route="formacao">
@@ -44,7 +42,6 @@
                                         <path
                                             d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
                                     </svg>
-
                                 </div>
                                 <div class="flex-grow pl-4">
                                     <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">
@@ -111,15 +108,22 @@
             </nav>
         </div>
         <div class="md:col-span-4">
-            <div class="rota" id="inicio">
-                <p>Inicio</p>
+            <div class="rota md:overflow-y-scroll md:h-screen" id="inicio">
+                <h1 class="text-4xl text-center">Sobre mim</h1>
+                <div class="w-full h-5/6 mt-5">
+                <div class="max-w-4xl mx-auto h-full flex flex-col ">
+                <p class="text-xl break-words text-justify">Interesado pela area de tecnologia da informação desde cedo, sempre estudando e indo atras por conta propria. Como qualquer pre-adolecente eu tinha uma fixação por ir atras de criar meu proprio jogo, indo atras descobri uma engine que nem é mais usada hoje em dia, ela era acessada pelo editor de modelagem 3d chamado blender. Nele dei os primeiros passos na logica, pensando que seria apenas uma brincadeira, jamais imaginaria o que aconteceria anos depois disso.</p>
+                <p class="text-xl break-words text-justify">Alguns anos depois eu comecei um curso proficionalizante da epoca que prometia informatica basica e formação em desenvolvimento de jogos, quando o curso começou a introduzir a pascal eu sai dele, mas mesmo que eu tenha saido do curso, o movimento de conhecimento e curiosidade que tinha dentro de mim permaneceu e foi assim que comecei a ir atras de formas de adquirir conhecimentos, quando comecei a pesquisar descobri realmente sobre o mundo de TI, e java foi a linguagem escolhida para começar, assim trilhei o caminho auto didata, onde aprendi principalmente a me adaptar e aprender quase qualquer coisa.</p>
+                <p class="text-xl break-words text-justify mb-0 mt-auto">E assim a aventura começou...</p>
             </div>
-            <div class="rota" id="formacao">
+            </div>
+            </div>
+            <div class="rota md:overflow-y-scroll md:h-screen" id="formacao">
                 <h1 class="text-4xl text-center">Formações e Contribuições</h1>
-                <div class="my-auto h-fit">
-                    <div class="border rounded-lg border-lime-900 px-4 py-2 mx-auto max-w-4xl">
+                <div class="my-5 h-fit">
+                    <div class="border rounded-lg border-lime-900 px-4 py-2 mx-auto md:max-w-4xl">
                         <h3 class="text-2xl text-center">Sistemas para Internet - Fatec de Jales</h3>
-                        <img src="/img/fatec.png" class="float-right w-48 mx-2">
+                        <img src="img/fatec.png" class="float-right w-48 mx-2">
                         <p class="break-words text-justify">O Curso de Técnico em Informática para Internet tem como
                             objetivo atender a crescente demanda por profissionais qualificados para o desenvolvimento
                             de sistemas para Internet, habilitando o profissional a projetar desde a interface até a
@@ -129,9 +133,9 @@
                             gráficas, web design, além de outras tecnologias.</p>
                     </div>
 
-                    <div class="border rounded-lg border-lime-900 px-4 py-2 mx-auto max-w-4xl mt-5">
+                    <div class="border rounded-lg border-lime-900 px-4 py-2 mx-auto md:max-w-4xl mt-5">
                         <h3 class="text-2xl text-center">Informatica para Internet - Etec de Fernandópolis</h3>
-                        <img src="/img/infonet.svg" class="float-right w-48 mx-2">
+                        <img src="img/infonet.svg" class="float-right w-48 mx-2">
                         <p class="break-words text-justify">O Curso de Técnico em Informática para Internet tem como
                             objetivo atender a crescente demanda por profissionais qualificados para o desenvolvimento
                             de sistemas para Internet, habilitando o profissional a projetar desde a interface até a
@@ -141,9 +145,9 @@
                             gráficas, web design, além de outras tecnologias.</p>
                     </div>
 
-                    <div class="border rounded-lg border-lime-900 px-4 py-2 mx-auto max-w-4xl mt-5">
+                    <div class="border rounded-lg border-lime-900 px-4 py-2 mx-auto md:max-w-4xl mt-5">
                         <h3 class="text-2xl text-center">Desenvolvimento de Sistemas - Etec de Fernandópolis</h3>
-                        <img src="/img/DS.svg" class="float-right w-48 mx-2">
+                        <img src="img/DS.svg" class="float-right w-48 mx-2">
                         <p class="break-words text-justify">O curso de TÉCNICO EM DESENVOLVIMENTO DE SISTEMAS tem como
                             objetivos capacitar o aluno para: aplicar os fundamentos da computação e da tecnologia de
                             informação de forma a situar os conhecimentos adquiridos durante o curso em um contexto mais
@@ -160,10 +164,10 @@
                             com os gêneros textuais e modelos convencionados (documentação e redação técnica).</p>
                     </div>
 
-                    <div class="border rounded-lg border-lime-900 px-4 py-2 mx-auto max-w-4xl mt-5">
+                    <div class="border rounded-lg border-lime-900 px-4 py-2 mx-auto md:max-w-4xl mt-5">
                         <h3 class="text-2xl text-center">Lixo Eletronico(Trabalho voluntario) - Etec de Fernandópolis
                         </h3>
-                        <img src="/img/etecFer.svg" class="float-right w-48 mx-2 my-auto">
+                        <img src="img/etecFer.svg" class="float-right w-48 mx-2 my-auto">
                         <p class="break-words text-justify">Um projeto volutario com o objetivo de utilizar hardware
                             doado e que não estava mais funcionando para que seja concertado e formatado de forma
                             devida, assim adquirindo pratica na manutenção de computadores.</p>
@@ -182,7 +186,7 @@
         </div>
     </div>
 
-    <script src="js/router.module.js" type="module"></script>
+    <script src="js/router.module.js"></script>
 </body>
 
 </html>
