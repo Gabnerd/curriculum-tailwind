@@ -11,25 +11,56 @@
 
 <body>
     <div class="grid md:grid-cols-6 grid-flow-row gap-y-5 md:gap-0 h-screen">
-        <div class="md:hidden block">
-            <a href="#formacao">
-                <div
-                    class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 hover:bg-indigo-800 inline-flex items-center justify-center text-white relative z-10 route-indicator">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-6 h-6" stroke-linecap="round" stroke-linejoin="round">
-                        <path
-                            d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z" />
-                    </svg>
-                </div>
-            </a>
+
+        <!--navegação mobile-->
+        <div class="md:hidden ">
+            <nav class="flex w-11/12 justify-between mx-auto mt-3">
+                <a href="#inicio">
+                    <div
+                        class="flex-shrink-0 w-28 h-10 rounded px-2 bg-indigo-500 hover:bg-indigo-800 inline-flex items-center justify-center text-white relative z-10 route-indicator">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z" />
+                        </svg>
+                        <p class="text-sm">Sobre mim</p>
+                    </div>
+                </a>
+                <a href="#formacao">
+                    <div
+                        class="flex-shrink-0 w-28 h-10 rounded mt-0 px-2 bg-indigo-500 hover:bg-indigo-800 inline-flex items-center justify-center text-white relative z-10 route-indicator">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                        </svg>
+                        <p class="text-sm">Formações</p>
+                    </div>
+                </a>
+                <a href="#formacao">
+                    <div
+                        class="flex-shrink-0 w-28 h-10 rounded mt-0 px-2 bg-indigo-500 hover:bg-indigo-800 inline-flex items-center justify-center text-white relative z-10 route-indicator">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
+                        </svg>
+                        <p class="text-sm">Techs</p>
+                    </div>
+                </a>
+
+            </nav>
+            <img src="img/pescaroli.jpg" alt="" class="rounded-full mx-auto w-28 mt-5">
         </div>
+        <!--fim navegação mobile-->
+
         <!--navegação para desktop-->
-        <div class="md:col-span-1 md:h-screen md:block hidden">
-            <img src="https://via.placeholder.com/150" alt="" class="rounded-full mx-auto w-3/4">
+        <div class="md:col-span-1 md:h-screen md:block hidden pt-5 pl-5">
+            <img src="img/pescaroli.jpg" alt="" class="rounded-full mx-auto w-3/4">
             <nav>
                 <div class="container px-5 py-24 mx-auto flex flex-wrap">
                     <div class="flex flex-wrap w-full">
-                        <div class="lg:w-full md:w-full">
+                        <div class="md:w-full">
                             <div class="flex relative pb-12 items-center route-link" data-route="inicio">
                                 <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
                                     <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
@@ -66,9 +97,6 @@
                                 </div>
                             </div>
                             <div class="flex relative pb-12 items-center route-link" data-route="licoes">
-                                <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
-                                    <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                                </div>
                                 <div
                                     class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 hover:bg-indigo-800 inline-flex items-center justify-center text-white relative z-10 route-indicator">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -84,25 +112,7 @@
                                         Aprendizados e Tecnologias</h2>
                                 </div>
                             </div>
-                            <div class="flex relative pb-12">
-
-                                <div
-                                    class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                        <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                                        <circle cx="12" cy="7" r="4"></circle>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow pl-4">
-                                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">STEP 4
-                                    </h2>
-                                    <p class="leading-relaxed">VHS cornhole pop-up, try-hard 8-bit iceland helvetica.
-                                        Kinfolk bespoke try-hard cliche palo santo offal.</p>
-                                </div>
-                            </div>
-
-                        </div>
+                            
                     </div>
                 </div>
             </nav>
@@ -110,7 +120,7 @@
         <!--fim navegação para desktop-->
 
         <div class="md:col-span-5">
-            <div class="rota md:overflow-y-scroll md:h-screen" id="inicio">
+            <div class="rota md:overflow-y-scroll md:h-screen md:px-0 px-2 pt-5" id="inicio">
                 <h1 class="text-4xl text-center">Sobre mim</h1>
                 <div class="w-full h-5/6 mt-5">
                     <div class="max-w-4xl mx-auto h-full flex flex-col">
@@ -132,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <div class="rota md:overflow-y-scroll md:h-screen" id="formacao">
+            <div class="rota md:overflow-y-scroll md:h-screen md:px-0 pt-5 px-2" id="formacao">
                 <h1 class="text-4xl text-center">Formações e Contribuições</h1>
                 <div class="my-5 h-fit">
                     <div class="border rounded-lg border-lime-900 px-4 py-2 mx-auto md:max-w-4xl">
@@ -194,9 +204,9 @@
                     </div>
                 </div>
             </div>
-            <div class="rota md:overflow-y-scroll md:h-screen" id="licoes">
+            <div class="rota md:overflow-y-scroll md:h-screen md:px-0 pt-5 px-2" id="licoes">
                 <div class="md:w-9/12 mx-auto">
-                    <p class="text-xl break-words text-justify">...Algumas das minhas habilidades são:</p>
+                    <h1 class="text-4xl text-center">Habilidades</h1>
                     <div class="flex flex-col">
                         <div class="border border-zinc-600 rounded px-5 py-2 mt-5">
                             <p class="text-2xl text-center">Javacript</p>
