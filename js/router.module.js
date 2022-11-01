@@ -1,3 +1,5 @@
+if(window.window.innerWidth >= 768){
+
 window.onhashchange = () => {
     routeAccess(location.hash);
 };
@@ -45,4 +47,9 @@ function routeAccess(rota) {
     if(!founded){
         location.hash = "inicio";
     }
+}
+}
+
+window.onresize = ()=>{
+    location.reload();
 }

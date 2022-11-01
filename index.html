@@ -11,8 +11,21 @@
 
 <body>
     <div class="grid md:grid-cols-6 grid-flow-row gap-y-5 md:gap-0 h-screen">
-        <div class="md:col-span-2">
-            <img src="https://via.placeholder.com/150" alt="" class="rounded-full mx-auto">
+        <div class="md:hidden block">
+            <a href="#formacao">
+                <div
+                    class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 hover:bg-indigo-800 inline-flex items-center justify-center text-white relative z-10 route-indicator">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z" />
+                    </svg>
+                </div>
+            </a>
+        </div>
+        <!--navegação para desktop-->
+        <div class="md:col-span-1 md:h-screen md:block hidden">
+            <img src="https://via.placeholder.com/150" alt="" class="rounded-full mx-auto w-3/4">
             <nav>
                 <div class="container px-5 py-24 mx-auto flex flex-wrap">
                     <div class="flex flex-wrap w-full">
@@ -72,9 +85,7 @@
                                 </div>
                             </div>
                             <div class="flex relative pb-12">
-                                <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
-                                    <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
-                                </div>
+
                                 <div
                                     class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round"
@@ -90,28 +101,15 @@
                                         Kinfolk bespoke try-hard cliche palo santo offal.</p>
                                 </div>
                             </div>
-                            <div class="flex relative">
-                                <div
-                                    class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round"
-                                        stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
-                                        <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                                        <path d="M22 4L12 14.01l-3-3"></path>
-                                    </svg>
-                                </div>
-                                <div class="flex-grow pl-4">
-                                    <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">FINISH
-                                    </h2>
-                                    <p class="leading-relaxed">Pitchfork ugh tattooed scenester echo park gastropub
-                                        whatever cold-pressed retro.</p>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
-        <div class="md:col-span-4">
+        <!--fim navegação para desktop-->
+
+        <div class="md:col-span-5">
             <div class="rota md:overflow-y-scroll md:h-screen" id="inicio">
                 <h1 class="text-4xl text-center">Sobre mim</h1>
                 <div class="w-full h-5/6 mt-5">
@@ -197,8 +195,81 @@
                 </div>
             </div>
             <div class="rota md:overflow-y-scroll md:h-screen" id="licoes">
-                <p class="text-xl break-words text-justify">...Por conta propria, estudei, entendi e desenvolvi minhas habilidades:</p>
-                
+                <div class="md:w-9/12 mx-auto">
+                    <p class="text-xl break-words text-justify">...Algumas das minhas habilidades são:</p>
+                    <div class="flex flex-col">
+                        <div class="border border-zinc-600 rounded px-5 py-2 mt-5">
+                            <p class="text-2xl text-center">Javacript</p>
+                            <div class="flex flex-row">
+                                <img src="img/javascript-icon.png" class="w-10 h-10">
+                                <div class="h-4 border border-green-600 rounded-full col-span-11 my-auto w-full">
+                                    <div class="h-full w-1/2 bg-green-700 rounded-l-full">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-zinc-600 rounded px-5 py-2 mt-5">
+                            <p class="text-2xl text-center">Javacript</p>
+                            <div class="flex flex-row">
+                                <img src="img/javascript-icon.png" class="w-10 h-10">
+                                <div class="h-4 border border-green-600 rounded-full col-span-11 my-auto w-full">
+                                    <div class="h-full w-1/2 bg-green-700 rounded-l-full">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-zinc-600 rounded px-5 py-2 mt-5">
+                            <p class="text-2xl text-center">Javacript</p>
+                            <div class="flex flex-row">
+                                <img src="img/javascript-icon.png" class="w-10 h-10">
+                                <div class="h-4 border border-green-600 rounded-full col-span-11 my-auto w-full">
+                                    <div class="h-full w-1/2 bg-green-700 rounded-l-full">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-zinc-600 rounded px-5 py-2 mt-5">
+                            <p class="text-2xl text-center">Javacript</p>
+                            <div class="flex flex-row">
+                                <img src="img/javascript-icon.png" class="w-10 h-10">
+                                <div class="h-4 border border-green-600 rounded-full col-span-11 my-auto w-full">
+                                    <div class="h-full w-1/2 bg-green-700 rounded-l-full">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-zinc-600 rounded px-5 py-2 mt-5">
+                            <p class="text-2xl text-center">Javacript</p>
+                            <div class="flex flex-row">
+                                <img src="img/javascript-icon.png" class="w-10 h-10">
+                                <div class="h-4 border border-green-600 rounded-full col-span-11 my-auto w-full">
+                                    <div class="h-full w-1/2 bg-green-700 rounded-l-full">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-zinc-600 rounded px-5 py-2 mt-5">
+                            <p class="text-2xl text-center">Javacript</p>
+                            <div class="flex flex-row">
+                                <img src="img/javascript-icon.png" class="w-10 h-10">
+                                <div class="h-4 border border-green-600 rounded-full col-span-11 my-auto w-full">
+                                    <div class="h-full w-1/2 bg-green-700 rounded-l-full">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border border-zinc-600 rounded px-5 py-2 mt-5">
+                            <p class="text-2xl text-center">Javacript</p>
+                            <div class="flex flex-row">
+                                <img src="img/javascript-icon.png" class="w-10 h-10">
+                                <div class="h-4 border border-green-600 rounded-full col-span-11 my-auto w-full">
+                                    <div class="h-full w-1/2 bg-green-700 rounded-l-full">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
